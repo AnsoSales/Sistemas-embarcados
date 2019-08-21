@@ -41,5 +41,5 @@ TAB
   (q) Ordenar informações em um arquivo-texto: sort 'arquivo'
   (r) Substituir ocorrências de palavras-chave em um arquivo-texto: sed -e 's/'palavra velha'/'palavra nova'' pasta destino 
   (s) Conferir se dois arquivos são iguais: cmp arquivo1 arquivo2
-  (t) Escrever algo na tela: 
+  (t) Escrever algo na tela: echo "o que quer escrever"
 
