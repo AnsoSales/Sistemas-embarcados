@@ -13,6 +13,7 @@
   Dentro da pasta root, coloca o comando "ls -d */"
 
 5. Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
+  
 
 6. Liste somente os arquivos com extensão .txt.
   Dentro da pasta: "ls -l *.txt
@@ -27,7 +28,10 @@
    Dentro da pasta: "ls -l *.gif
    
 10. Liste somente os arquivos que contenham o nome 'cal'.
+  ls -la *cal*
   
 11. Liste somente os arquivos que contenham o nome 'tux'.
-
+  ls -la *tux*
+  
 12. Liste somente os arquivos que comecem com o nome 'tux'.
+  ls -la tux*
