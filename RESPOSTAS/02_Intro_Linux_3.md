@@ -54,4 +54,12 @@ while read -r line
 ```
 
 5. Faça um script chamado _up.sh_ que sobe _N_ níveis na pasta onde você estiver, usando $1 como parâmetro de entrada. Por exemplo, se você estiver em **/home/aluno/Documents** e executar **./up.sh 2**, você automaticamente vai para a pasta **/home**.
+```bash
+#!/bin/bash
+N=$1
+for((i=0; i<=N; i++))
+	do
+	cd .. 
+	done
+```
 
